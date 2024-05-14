@@ -34,7 +34,7 @@ int main(){
 
 	for(int j=1;j<=i;j++){
 		waitpid(-1,&s,0);
-		printf("WEXITSTATUS = %d\n",WEXITSTATUS(s));
+		//printf("WEXITSTATUS = %d\n",WEXITSTATUS(s));
 		}
 
 	return 0;
